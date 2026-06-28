@@ -1,0 +1,21 @@
+title: Jaxon Didericksen
+description: Life updates, writing, and things I find worth sharing.
+url: "https://jaxond.me"
+baseurl: ""
+
+author:
+  name: Jaxon Didericksen
+
+# No analytics, no tracking, no third-party embeds.
+
+# Build settings — no theme; we use our own layouts
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - deploy.sh
+  - README.md
+  - .jekyll-cache/
+  - vendor/
