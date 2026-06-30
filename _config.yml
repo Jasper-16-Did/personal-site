@@ -9,8 +9,7 @@ author:
 # No analytics, no tracking, no third-party embeds.
 
 # Build settings — no theme; we use our own layouts
-plugins:
-  - jekyll-feed
+plugins: []
 
 exclude:
   - Gemfile

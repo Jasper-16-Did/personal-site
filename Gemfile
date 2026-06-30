@@ -2,9 +2,8 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4.1"
 
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
+# Feed is generated from our own template (feed.xml + feed.xsl), so we no
+# longer depend on jekyll-feed.
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
